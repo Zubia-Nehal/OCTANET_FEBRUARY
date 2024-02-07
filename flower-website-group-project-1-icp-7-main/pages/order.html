@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/style.css"/>
+    <link rel="stylesheet" href="./../css/order.css"/>
+</head>
+<body>
+    <header class="header">
+        <h1 class="name">FlowersWorld<span class="dot">.</span></h1>
+
+        <nav class="navbar">
+            <a href="./../index.html" class="section">Home</a>
+            <a href="./about.html" target="_blank" class="section">About</a>
+            <a href="./product.html" target="_blank" class="section">Products</a>
+            <a href="./review.html" target="_blank" class="section">Review</a>
+            <a href="./contact.html" target="_blank" class="section">Contact</a>
+        </nav>
+
+        <div class="division">
+            <a href="./signup.html" target="_blank" class="signup">SignUp/</a>
+            <a href="./login.html"  target="_blank" class="Login">Login</a>
+        </div>
+    </header><br/><br/><br/><br/>
+    <div class="main">
+        <div class="signup">
+            <h2>Buy Now</h2>
+            <form id="register" method="post">
+            
+                <label>First name:</label><br/>
+                <input type="text" name="fname" id="name" required placeholder="enter your first name"/><br/><br/>
+                <label>Last name:</label><br/>
+                <input type="text" name="lname" id="name" required placeholder="enter your last name"/><br/><br/>
+                <label>Mobile no:</label><br/>
+                <input type="number" name="mobile no" id="name" required placeholder="mobile no"/><br/><br/>
+                <label>Address:</label>
+                <input type="textarea" name="address" id="name" required placeholder="address"/><br/><br/>
+                <label>Payment:</label>
+                <select class="Payment" required>
+                    <option>Option for Payment</option>
+                    <option>GPay</option>
+                    <option>PhonePe</option>
+                    <option>Paytm</option>
+                    <option>other</option>
+                </select> <br/><br/>
+                <input type="submit" value="Buy Now" name="submit" id="submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
